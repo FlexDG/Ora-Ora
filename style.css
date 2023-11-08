@@ -1720,7 +1720,6 @@ textarea {
     .container-menu .title p,
     .popular-text h3,
     .contact-form .contact-des,
-    .left-text-container p,
     .left-text-container span,
     .about-text h3,
     .footer-content p,
@@ -1729,18 +1728,28 @@ textarea {
         font-size: 2dvw;
     }
     
-    .reserve-container .left-reserve-number,
-    .reserve-container .left-reserve,
+    .left-text-container p{
+        font-size: 3dvw;
+    }
+
     .footer-content h1,
     .container-menu .title h2 {
         font-size: 3.5dvw;
     }
 
+    .reserve-container .left-reserve-number,
+    .reserve-container .left-reserve {
+        font-size: 4.5dvw;
+    }
+
+    .form-left h1{
+        font-size: 8dvw;
+    }
+
     .about-text h2,
     .popular-text h2,
-    .contact-content h2,
-    .form-left h1 {
-        font-size: 4.5dvw;
+    .contact-content h2 {
+        font-size: 5.5dvw;
     }
 
 
