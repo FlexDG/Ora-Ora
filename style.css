@@ -1289,7 +1289,7 @@ textarea {
 
     .form-left {
         width: 100%;
-        min-height: 90%;
+        min-height: 80%;
     }
 
     .contact-form h2 {
@@ -1634,7 +1634,6 @@ textarea {
         font-size: 2.5dvw;
     }
 
-
     .contact-section,
     .form-section {
         height: 1000px;
@@ -1649,7 +1648,7 @@ textarea {
     }
 
     .footer-section {
-        padding-top: 70%;
+        padding-top: 40%;
     }
 
     .contact-img {
@@ -1664,6 +1663,7 @@ textarea {
         position: relative;
         right: 2%;
     }
+
 }
 
 @media (max-width: 485px) {
@@ -1753,7 +1753,6 @@ textarea {
         width: 30px;
         margin: 0 30px 15px 0;
         font-size: 2.5dvw;
-
     }
 
 
