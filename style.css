@@ -732,32 +732,9 @@ header.sticky {
     margin-right: 10px;
 }
 
-
-
 .box .box_img {
     width: 35%;
     text-align: center;
-}
-
-.image-zoom-container {
-    width: 230px;
-    height: 180px;
-    margin-right: 90px;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.image-zoom-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transform-origin: center center;
-    transition: transform 0.5s ease;
-}
-
-.image-zoom-container:hover img {
-    transform: scale(1.25);
-
 }
 
 .box_img img {
@@ -1216,6 +1193,7 @@ textarea {
 }
 
 
+
 /****responsive design****/
 
 
@@ -1352,7 +1330,6 @@ textarea {
     }
 
 }
-
 @media (max-width: 1545px) {
 
     .popular-section {
@@ -1398,6 +1375,7 @@ textarea {
         max-height: 170px;
         margin-top: 5px;
     }
+
 }
 
 @media (max-width: 375px) {
@@ -1778,11 +1756,7 @@ textarea {
 
     }
 
-    .box_img img {
-        width: 120px;
-        height: 120px;
-        margin-top: 25px;
-    }
+
 
     .text h3,
     .text section,
@@ -1804,15 +1778,22 @@ textarea {
         width: 80%;
     }
 
+    .box {
+        width: 100%;
+    }
+
+    .box_img img {
+        width: 120px;
+        height: 120px;
+        margin-top: 25px;
+    }
+
     .box .box_img {
         position: relative;
         text-align: left;
         width: 120px;
     }
 
-    .box {
-        width: 100%;
-    }
 
     .box .text {
         width: 100%;
