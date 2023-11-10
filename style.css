@@ -1314,6 +1314,12 @@ textarea {
 
 }
 
+@media (max-width: 708px) {
+    .scroll-top{
+        display: none;
+    }
+}
+
 @media (max-width: 1005px) {
 
     .shape-1,
@@ -1660,8 +1666,7 @@ textarea {
     }
 
     .about-img-container {
-        position: relative;
-        right: 2%;
+        display: none;
     }
 
 }
