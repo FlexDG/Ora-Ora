@@ -76,18 +76,10 @@ inputs.forEach((input) => {
   input.addEventListener("blur", blurFunc);
 });
 
-// const scrollUp = () => {
-
-//     const scrollUp = document.getElementById('scroll-up')
-//     this.scroll >= 300 ? scrollUp.classList.add('show-scroll')
-//                     : scrollIUp.classList.remove('show-scroll')
-// }
-
-// window.addEventListener('scroll, scrollUp')
 
 const scrollButton = document.querySelector(".scroll-top");
 
-// Function to toggle the scroll button visibility
+
 function toggleScrollButton() {
   if (window.scrollY > document.querySelector("header").offsetHeight) {
     scrollButton.classList.add("active");
@@ -96,13 +88,12 @@ function toggleScrollButton() {
   }
 }
 
-// Add a scroll event listener to call the toggleScrollButton function
+
 window.addEventListener("scroll", toggleScrollButton);
 
-// Scroll to the top when the button is clicked
 scrollButton.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
-    behavior: "smooth", // Add smooth scrolling behavior
+    behavior: "smooth", 
   });
 });
